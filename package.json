@@ -1,0 +1,15 @@
+{
+  "name": "minevn-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=http node index.js"
+  },
+  "author": "acayrin",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.2",
+    "express": "^4.17.1"
+  }
+}
