@@ -1,9 +1,11 @@
 'user strict'
 let debug   = require('debug')('http'),
     express = require('express'),
+    cors    = require('cors'),
     fs      = require('fs'),
     app     = express()
 
+app.use(cors())
 app.use(express.static(__dirname + '/public'))
 app.get('/', (_, res) => {
     let out = ""
